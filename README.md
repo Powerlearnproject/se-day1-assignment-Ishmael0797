@@ -5,33 +5,87 @@ Software Engineering Day1 Assignment
 #Part 1: Introduction to Software Engineering
 
 Explain what software engineering is and discuss its importance in the technology industry.
-
-
+ Is a branch of computer science used for developing, testing and maintaining software.
+ Reliability- it ensures software performs as expected without bias.
+ Efficiency - it helps to optimize developer workflow while maintaining high quality standards.
+ Scalability and flexibility - it ensures that the system can handle an increased load without affecting performance.
+ Security - implement protection practice like authentication, authorization and encryption to secure users information. 
 Identify and describe at least three key milestones in the evolution of software engineering.
+ Mastering complexity
+ Mastering process
+ Mastering machine
 
 
 List and briefly explain the phases of the Software Development Life Cycle.
+ Planning - identify the software requirement or purpose and scope.
+ Requirement analysis - identify the final user specification. 
+ Design - building the framework. 
+ Coding - converting software design into tangible code.
+ Testing - examine the software for any bugs and glitches
+
 
 
 Compare and contrast the Waterfall and Agile methodologies. Provide examples of scenarios where each would be appropriate.
+  Waterfall methodology is Linear and sequential, each phase is completed before moving on while Agile methodology is Iterative and incremental, with multiple cycles. 
+  Waterfall methodology there is Low flexibility while Agile methodology there is high flexibility.
+  Waterfall methodology there customer feedback comes late, after the product is developed while Agile methodology regular customer feedback is incorporated into every cycle.
+  Waterfall methodology testing is done at the end of the development process while Agile methodology testing is continuous and done after each iteration.
+    Waterfall methodology is best for project managers with less complex requirements like heathcare projects while agile is for complex projects like mobile application development and testing
 
+  
 
 Describe the roles and responsibilities of a Software Developer, a Quality Assurance Engineer, and a Project Manager in a software engineering team.
+A Software Developer helps in developing applications,programs and systems using programming languages and frameworks,maintaining and updating software to keep it functional,collaborating with other team members to ensure best practice when developing software.
+ and reporting to the project manager about the progress of the software development.
+A Quality Assurance Engineer collaborates with stakeholders to understand and clarify software requirement,create development standards and procedures for the programmers to follow,confirm that the software meets the requirement before deployment,analyse the product to identify bugs and suggest changes to make them more efficient and develop and execute automation scripts using open source tools.
+A Project Manager assembles and leads the software development team, discusses the project and it's requirement with the client and software developers, creates blueprints for the project, tracking and communicating information regarding the project milestone and deliver the complete software to the client and regularly check its performance.
+
 
 
 Discuss the importance of Integrated Development Environments (IDEs) and Version Control Systems (VCS) in the software development process. Give examples of each.
+An integrated development environment  is a software platform that facilitates the creation of other software applications by providing a space to write, compile, and debug code, sometimes with value-adding tools that reduce development efforts. eg Visual Studio Code 
+Version Control Systems are software tools that help software teams manage changes to source code over time. eg Git
+
 
 
 What are some common challenges faced by software engineers? Provide strategies to overcome these challenges.
+Rapid technological advancement places considerable pressure on software engineers to stay current. This can be solved by adopting continuous learning practices and using agile methodologies to adapt to emerging trends, keeping their skills sharp in an ever-evolving industry.
+Changing Software Requirements are often dynamic and subject to frequent changes, making it challenging for engineers to design and develop solutions that meet users' needs while accounting for future updates and bug fixes hence,engineers can adopt approaches like agile development, which emphasizes iterative progress and adaptability, and modular design, which enables flexibility by breaking systems into manageable, independent components.
+Software engineering is a demanding and time-intensive field, often requiring engineers to work under high pressure to meet tight deadlines. This can be solved by adopting methodologies, such as Scrum, to streamline workflows by dividing large projects into manageable sprints.
+
+
 
 
 Explain the different types of testing (unit, integration, system, and acceptance) and their importance in software quality assurance.
+ Integration tests help verify that different modules or services used by your application work well together to ensure data flows smoothly between modules and interfaces work as expected.
+ System testing focuses on the entire software system as a whole, including all functionalities and interactions. It helps to verify that the system meets all functional and non-functional requirements, including performance, usability, and security.
+ Acceptance tests are formal tests that verify if a system satisfies business requirements. They require the entire application to be running while testing and focus on replicating user behaviors. 
+ Unit tests are close to the source of an application, They assist in testing individual methods and functions of the classes, components, or modules used by your software. They ensures that each unit performs its intended function correctly, isolated from other components.
+
+
+
 
 
 #Part 2: Introduction to AI and Prompt Engineering
 
 
 Define prompt engineering and discuss its importance in interacting with AI models.
-
+ Prompt engineering  is the process where you guide generative artificial intelligence solutions to generate desired outputs.
+The importance of prompt engineering includes;
+  Increased flexibility - A prompt engineer can create prompts with domain-neutral instructions highlighting logical links and broad patterns.
+  Improved user experience - Prompt engineering makes it easy for users to obtain relevant results in the first prompt and helps mitigate biasness.
+  Developer control - Prompt engineering gives developers more control over users' interactions with artificial intelligence. Effective prompts provide intent and establish context to the large language models.
 
 Provide an example of a vague prompt and then improve it by making it clear, specific, and concise. Explain why the improved prompt is more effective.
+Vague Prompt:
+Draw a dog.
+
+Improved Prompt:
+Create a digital illustration of a black Rottweiller sitting in a grassy field, with a blue sky and a few fluffy clouds in the background.
+
+Explanation:
+Clarity: The vague prompt simply says "Draw a dog," which leaves a lot of room for interpretation—what kind of dog, what pose, where, and what kind of background? The improved prompt specifies the breed (Rottweiler), the color (black), the pose (sitting), and the setting (grassy field with a blue sky and clouds), which leaves little to the imagination and ensures the artist knows exactly what is expected.
+
+Specificity: The vague prompt doesn't give details about size, style, or context, while the improved prompt adds specific details about the breed, color, setting, and composition, making the request far more detailed and focused.
+
+Conciseness: The improved prompt is still concise despite its added details, keeping the key information short and to the point, whereas the vague prompt doesn't provide enough context to be meaningful without further clarification.
